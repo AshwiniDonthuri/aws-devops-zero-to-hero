@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker pull ashwinif5/simple-python-flask-service:tagname
+docker pull ashwinif5/simple-python-flask-service
 
 # Run the Docker image as a container
-docker run -d -p 5000:5000 ashwinif5/simple-python-flask-service:tagname
+docker run -d -p 5000:5000 ashwinif5/simple-python-flask-service
